@@ -4,7 +4,7 @@ namespace Design_Patterns
 {
     public class BuilderPattern
     {
-        public void TestBuilderPattern()
+        public static void TestBuilderPattern()
         {
             MealDirector director = new MealDirector();
 

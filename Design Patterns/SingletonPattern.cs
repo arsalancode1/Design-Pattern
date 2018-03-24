@@ -8,7 +8,7 @@ namespace Design_Patterns
 {
     public class SingletonPattern
     {
-        public void TestSingletonPattern()
+        public static void TestSingletonPattern()
         {
             Logger logger1 = Logger.GetInstance();
             Logger logger2 = Logger.GetInstance();

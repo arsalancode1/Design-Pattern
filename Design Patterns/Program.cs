@@ -10,6 +10,8 @@ namespace Design_Patterns
     {
         static void Main(string[] args)
         {
+            ObserverPattern.TestObserverPattern();
+            Console.ReadLine();
         }
     }
 }

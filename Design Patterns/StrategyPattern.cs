@@ -3,7 +3,7 @@
     class StrategyPattern
     {
         
-        public void TestStrategyPattern()
+        public static void TestStrategyPattern()
         {
             MathOperation mathOperation = new MathOperation(new AddOperationStrategy());
             mathOperation.SetNumber(1,2);
@@ -23,7 +23,7 @@
         public void SetNumber(int num1,int num2)
         {
             this.num1 = num1;
-            this.num1 = num2;
+            this.num2 = num2;
         }
         public int GetResult()
         {
